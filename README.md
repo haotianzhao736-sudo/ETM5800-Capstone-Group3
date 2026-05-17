@@ -12,14 +12,15 @@ This capstone project applies a multi-method text analytics workflow to 18,000 A
 * Liu Zizheng (36573582)
 
 ## Repository Structure
-* `/data`: Contains the cleaned Amazon review dataset (18,000 entries across 3 categories).
-* `/notebooks`: Contains the annotated Jupyter Notebooks for EDA, Unsupervised, and Supervised analytics.
-* `Report.pdf`: The final 2500-word business report.
+* `/Dataset`: Contains the cleaned Amazon review dataset (18,000 entries across 3 categories).
+* `ETM5800_A3_Capstone.ipynb`: The annotated Jupyter Notebook containing all code for EDA, Unsupervised, Supervised, and Advanced text analytics.
+* `5800a3Group3.pdf`: The final capstone business report.
+* `requirements.txt`: List of dependencies required to run the notebook.
 
 ## How to Run the Code
 1. Clone this repository.
 2. Install the required dependencies: `pip install -r requirements.txt`
-3. Run the notebooks in sequential order. (Note: DistilBERT models require GPU acceleration, such as Google Colab T4).
+3. Open and run `ETM5800_A3_Capstone.ipynb` in sequential order. (Note: DistilBERT models require GPU acceleration, such as Google Colab T4).
 
 ## Key Findings
 * Negative reviews tend to be longer (median 45 tokens) than positive ones (40 tokens).
