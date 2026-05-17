@@ -12,9 +12,10 @@ This capstone project applies a multi-method text analytics workflow to 18,000 A
 * Liu Zizheng (36573582)
 
 ## Repository Structure
-* `/Dataset`: Contains the cleaned Amazon review dataset (18,000 entries across 3 categories).
+* `/Dataset`: Contains all project datasets.
+  * `raw_amazon_reviews.csv`: The original, uncleaned Amazon review dataset (18,000 entries across 3 categories).
+  * `cleaned_amazon_reviews.csv`: The preprocessed dataset used for all modeling and analytics.
 * `ETM5800_A3_Capstone.ipynb`: The annotated Jupyter Notebook containing all code for EDA, Unsupervised, Supervised, and Advanced text analytics.
-* `5800a3Group3.pdf`: The final capstone business report.
 * `requirements.txt`: List of dependencies required to run the notebook.
 
 ## How to Run the Code
