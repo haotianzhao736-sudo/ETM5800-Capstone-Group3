@@ -16,7 +16,6 @@ This capstone project applies a multi-method text analytics workflow to 18,000 A
   * `raw_amazon_reviews.csv`: The original, uncleaned Amazon review dataset (18,000 entries across 3 categories).
   * `cleaned_amazon_reviews.csv`: The preprocessed dataset used for all modeling and analytics.
 * `ETM5800_A3_Capstone.ipynb`: The annotated Jupyter Notebook containing all code for EDA, Unsupervised, Supervised, and Advanced text analytics.
-* `requirements.txt`: List of dependencies required to run the notebook.
 
 ## How to Run the Code
 1. Clone this repository.
