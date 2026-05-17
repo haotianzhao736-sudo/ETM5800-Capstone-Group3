@@ -1,28 +1,27 @@
 # ETM5800-Capstone-Group3
 ETM5800 Capstone Project: Multi-Method Text Analytics on Amazon Reviews (Group 3)
-# Understanding Customer Dissatisfaction in E-Commerce (ETM5800 Group 3)
+# ETM5800 Capstone Project — Group 3
 
-## Project Overview
-This capstone project applies a multi-method text analytics workflow to 18,000 Amazon product reviews. The objective is to identify drivers of negative customer experiences using Exploratory Data Analysis, LDA Topic Modelling, DistilBERT Sentiment Classification, and Aspect-Based Sentiment Analysis (ABSA).
+## Project
+Understanding Customer Dissatisfaction in E-Commerce:
+A Multi-Method Text Analytics Approach Using Amazon Product Reviews
 
-## Team Members
-* Lyu Li (35770856)
-* Zhao Haotian (35990635)
-* Lu Dingming (35644559)
-* Liu Zizheng (36573582)
+## Team
+- Lyu Li (35770856)
+- Zhao Haotian (35990635)
+- Lu Dingming (35644559)
+- Liu Zizheng (36573582)
 
 ## Repository Structure
-* `/Dataset`: Contains all project datasets.
-  * `raw_amazon_reviews.csv`: The original, uncleaned Amazon review dataset (18,000 entries across 3 categories).
-  * `cleaned_amazon_reviews.csv`: The preprocessed dataset used for all modeling and analytics.
-* `ETM5800_A3_Capstone.ipynb`: The annotated Jupyter Notebook containing all code for EDA, Unsupervised, Supervised, and Advanced text analytics.
+- `amazon_reviews_raw.csv` — Raw dataset (18,000 reviews, 3 categories)
+- `amazon_reviews_clean.csv` — Cleaned and labelled dataset
+- `5800A3.ipynb` — Full annotated analysis notebook
 
-## How to Run the Code
-1. Clone this repository.
-2. Install the required dependencies: `pip install -r requirements.txt`
-3. Open and run `ETM5800_A3_Capstone.ipynb` in sequential order. (Note: DistilBERT models require GPU acceleration, such as Google Colab T4).
+## How to Run
+1. Upload both CSV files to your Google Drive
+2. Open `5800A3.ipynb` in Google Colab
+3. Update the file paths in Step 1 to match your Drive location
+4. Run all cells top to bottom
 
-## Key Findings
-* Negative reviews tend to be longer (median 45 tokens) than positive ones (40 tokens).
-* DistilBERT achieved the highest classification performance (F1 = 0.899).
-* LDA identified 7 distinct complaint themes, validated by K-Means (ARI = 0.419).
+## Requirements
+pandas, numpy, matplotlib, seaborn, scikit-learn, gensim, pyLDAvis, umap-learn
